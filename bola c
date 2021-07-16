@@ -1,0 +1,15 @@
+#include <stdio.h>
+ 
+ void main(){
+	 float radius;	 
+	 
+	 // masukkan radius bola
+	 printf("masukkan radius bola: ");
+	 scanf("%f", &radius);
+	 
+	 // proses konversi
+	 float volumebola = (radius * radius * radius) * 4 / 3 * 22/7 ;
+	 
+	 // hasil volume bola
+	 printf("hasilnya adalah : %f", volumebola);
+ }
